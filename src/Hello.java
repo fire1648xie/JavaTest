@@ -11,6 +11,7 @@ public class Hello {
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         System.out.println(sdf.format(cal.getTime()));
+        System.out.println("What should I do?");
     }
 
 }
